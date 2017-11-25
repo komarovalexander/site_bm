@@ -14,7 +14,13 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             </button>
-            <a href="/" class="navbar-left logo"><img src="/img/logo.svg" alt="Бригада монтажников - лого"/></a>
+            <a href="/" class="navbar-left logo"><img 
+              {% if page.main %} 
+                          src="/img/logo_sm.svg"
+                          {% else %}
+                          src="/img/logo.svg"
+            {% endif %} alt="Бригада монтажников - лого" />
+          </a>
             <!--<a class="navbar-brand" href="index.html">
               <img src="{{ site.baseurl }}/img/logo.png" alt="Logo">
             </a>-->
