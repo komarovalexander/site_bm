@@ -36,12 +36,9 @@ a:active {
 .section-title p {
   color: #333;
 }
-header .navbar-default .navbar-toggle{
-  margin-right: 0px;
-}
 header {
   background: #fff;
-  padding: 20px 0;
+  padding: 30px 0 10px 0;
 }
 header .navbar {
   margin-bottom: 0px;
@@ -54,9 +51,6 @@ header .navbar-default {
 header .navbar-default .navbar-nav {
   padding-top: 10px;
 }
-header .navbar-default .navbar-nav li:first-child a{
-  margin-left: 26px;
-}
 header .navbar-default .navbar-nav li a {
   color: #333333;
   padding: 10px 26px;
@@ -65,26 +59,29 @@ header .navbar-default .navbar-nav li a {
 header .navbar-default .navbar-nav li a:hover {
   color: #000;
 }
-
-.logo img {
-  height: 45px;
+.container>.navbar-header, .container-fluid>.navbar-header, .container>.navbar-collapse, .container-fluid>.navbar-collapse{
+  margin-right: 0;
 }
-
-.logo span{
-  font-size: 20px;
+.logo{  
+  opacity: 0.7;
+}
+.logo:hover{  
+  opacity: 1;
+}
+.logo img {
+  height: 55px;
   position: relative;
-  top: 9px;
-  color: #333333;
+  top: -15px;
 }
 
 .container-fluid{
-  padding-left: 0;
+  padding: 0;
 }
 
 
 #slider {
   background: url(../img/slider-bg.jpg) no-repeat;
-  background-size: 100% auto;
+  background-size: cover;
   background-position: center;
   padding: 50px 0;
   position: relative;
@@ -226,7 +223,9 @@ header .navbar-default .navbar-nav li a:hover {
     margin-top: 0;
   }
 }  
-
+.col-md-12{
+  padding-right: 0;
+}
 #portfolio-work .col-md-12 img{
   width: 100%;
 }
@@ -274,24 +273,17 @@ footer .footer-manu ul li a:hover {
 
 @media(max-width: 990px) {
   .logo img {
-    height: 28px;
-    margin-top: 5px;
+    height: 40px;
+    top: -11px;
   }
   .intro .block img {
     margin-left: 0;
-  }
-
-  .logo span {
-    display: none;
   }
 
   #slider .block h1 {    
     line-height: 35px; 
   }
 
-  header {
-    padding: 0;
-  }
   header .navbar-default .navbar-nav {
     padding-top: 0;
   }
@@ -326,10 +318,15 @@ footer .footer-manu ul li a:hover {
           Index Start 
 -----------------------------------------------*/
 
-
+.navbar-default .navbar-collapse{  
+  border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+header {
+  padding: 0;
+}
 .logo img {
-  height: 37px;
-  margin: 18px 0 0 10px;
+  height: 40px;
+  margin: 25px 0 0 10px;
 }
 
 .service, .intro, #slider, #feature{
@@ -351,16 +348,10 @@ footer .footer-manu ul li a:hover {
     margin-top: 20px;
     margin-bottom: 20px;
   }
-  header .navbar-default .navbar-nav li:first-child a {
-    margin-left: 0;
-  }
   
   header .navbar-default .navbar-nav li a {
-    padding-right: 0;
+    padding-right: 15px;
     text-align: right;
-  }
-  #slider{
-    background-size: auto 100%;
   }
   #slider .block {
     padding-left: 0px;
