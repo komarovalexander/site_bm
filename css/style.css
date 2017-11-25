@@ -5,17 +5,8 @@
 /*--
   Common Css
 --*/
-body {
-  font-family: Arial,'Open Sans', sans-serif;
-  -webkit-font-smoothing: antialiased;
-}
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: Helvetica;
+body{
+  overflow-y: scroll;
 }
 h3 {
   font-size: 22px;
@@ -45,7 +36,9 @@ a:active {
 .section-title p {
   color: #333;
 }
-
+header .navbar-default .navbar-toggle{
+  margin-right: 0px;
+}
 header {
   background: #fff;
   padding: 20px 0;
@@ -53,12 +46,16 @@ header {
 header .navbar {
   margin-bottom: 0px;
   border: 0px;
+  min-height: 0;
 }
 header .navbar-default {
   background-color: transparent;
 }
 header .navbar-default .navbar-nav {
   padding-top: 10px;
+}
+header .navbar-default .navbar-nav li:first-child a{
+  margin-left: 26px;
 }
 header .navbar-default .navbar-nav li a {
   color: #333333;
@@ -67,6 +64,21 @@ header .navbar-default .navbar-nav li a {
 }
 header .navbar-default .navbar-nav li a:hover {
   color: #000;
+}
+
+.logo img {
+  height: 45px;
+}
+
+.logo span{
+  font-size: 20px;
+  position: relative;
+  top: 9px;
+  color: #333333;
+}
+
+.container-fluid{
+  padding-left: 0;
 }
 
 
@@ -135,8 +147,9 @@ header .navbar-default .navbar-nav li a:hover {
 .table {
     max-width: 500px;
   }
-.table th{
-  text-align: center; 
+.table tbody tr th {
+    text-align: left;
+    padding-left: 20px;
 }
 #price h3, #price p, #price table td {
   padding-left: 20px;
@@ -162,21 +175,14 @@ header .navbar-default .navbar-nav li a:hover {
 }
 
 
-#portfolio-work {
-  padding: 0;
-}
-#portfolio-work .container {
-  margin: auto;
-  max-width: 1200px;
-}
-
-#portfolio-work .responsive-image {
+#portfolio-work img {
   max-width: 100%;
 }
+
 #portfolio-work .cell {
     padding: 20px;
+    width: 50%;
     background-color: #eee;
-    margin: 1%;
     cursor: pointer;
   }
   #portfolio-work .cell.main {
@@ -191,40 +197,35 @@ header .navbar-default .navbar-nav li a:hover {
   }
 
 
-@media screen and (max-width: 600px) {
-  #portfolio-work,
-  #portfolio-work .container,
-  #portfolio-work .container .col-md-12{
-    padding: 0;
-  }
-  #portfolio-work .cell, #portfolio-work .cell.main {
-    width: 100%;
-    padding: 40px 10px;
-    margin: 0;
-    background-color: #fff;
-    cursor: default;
-    border-bottom: 1px solid #eee;
-  }
-  #portfolio-work .cell, #portfolio-work .cell h3{
-    margin-top: 0;
-  }
-
   #portfolio-work .grid {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
   }
   #portfolio-work .cell {
-    width: 48%;
     padding: 20px;
     background-color: #eee;
-    margin: 1%;
     cursor: pointer;
   }
   #portfolio-work .cell:hover {
     background-color: #ddd;
   }
-}
+@media screen and (max-width: 600px) {
+  #portfolio-work .cell, #portfolio-work .cell.main {
+    width: 100%;
+    padding: 40px 0;
+    margin: 0;
+    background-color: #fff;
+    cursor: default;
+    border-bottom: 1px solid #eee;
+  }
+  #portfolio-work .cell:hover {
+    background-color: #fff;
+  }
+  #portfolio-work .cell, #portfolio-work .cell h3{
+    margin-top: 0;
+  }
+}  
 
 #portfolio-work .col-md-12 img{
   width: 100%;
@@ -272,8 +273,16 @@ footer .footer-manu ul li a:hover {
 }
 
 @media(max-width: 990px) {
+  .logo img {
+    height: 28px;
+    margin-top: 5px;
+  }
   .intro .block img {
     margin-left: 0;
+  }
+
+  .logo span {
+    display: none;
   }
 
   #slider .block h1 {    
@@ -312,10 +321,17 @@ footer .footer-manu ul li a:hover {
 }
 
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 768px) {
   /*---------------------------------------------
           Index Start 
 -----------------------------------------------*/
+
+
+.logo img {
+  height: 37px;
+  margin: 18px 0 0 10px;
+}
+
 .service, .intro, #slider, #feature{
   padding: 40px 0;
 }
@@ -335,8 +351,13 @@ footer .footer-manu ul li a:hover {
     margin-top: 20px;
     margin-bottom: 20px;
   }
+  header .navbar-default .navbar-nav li:first-child a {
+    margin-left: 0;
+  }
+  
   header .navbar-default .navbar-nav li a {
-    padding: 10px 0;
+    padding-right: 0;
+    text-align: right;
   }
   #slider{
     background-size: auto 100%;
