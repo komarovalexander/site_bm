@@ -15,4 +15,8 @@
 <loc>http://brigada-montazhnikov.ru/price/</loc>
 <priority>1</priority>
 </url>
+<url>
+<loc>http://brigada-montazhnikov.ru/about/</loc>
+<priority>1</priority>
+</url>
 </urlset>
