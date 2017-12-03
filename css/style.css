@@ -16,6 +16,12 @@ p {
   font-size: 15px;
   line-height: 25px;
 }
+.btn-space {
+    margin-right: 10px;
+}
+.btn-info{
+  background-color: #428bca;
+}
 ul {
   padding: 0;
   margin: 0;
@@ -277,6 +283,7 @@ footer .footer-manu ul li a:hover {
     top: -11px;
   }
   .intro .block img {
+    margin-top: 20px;
     margin-left: 0;
   }
 
