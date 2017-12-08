@@ -233,6 +233,82 @@ permalink: /price/
 				</table>
 				<br>
 			</div>
+			<div class="section-title">
+				<h2 id="questions">
+					Остались вопросы?
+				</h2>
+				<p>Вы можете связаться с нами для уточнения стоимости. 
+					Мы произведем подробный расчет в течение суток. <a href="/contact/">Наши контакты</a></p>	
+				<p>Если у Вас есть замечания или пожелания по информации указанной на данной странице, то мы их обязательно рассмотрим, напишите нам воспользовавшись формой ниже:</p>								
+				<div id="feedback">
+				<form id="form" action="https://docs.google.com/forms/d/e/1FAIpQLSe2BRZifbymxGiGJsZfKlZ-uTtO8HQg0zj-eHpO8W-1BLPU_Q/formResponse" target="_self"
+				method="POST" id="mG61Hd">
+				   <div class="freebirdFormviewerViewFormCard">
+					   <div class="freebirdFormviewerViewAccentBanner freebirdAccentBackground"></div>
+					   <div class="freebirdFormviewerViewFormContent ">						  
+						   <div class="freebirdFormviewerViewItemList" role="list">
+							   <div role="listitem" class="freebirdFormviewerViewItemsItemItem freebirdFormviewerViewItemsTextTextItem" jsname="ibnC6b"
+								jscontroller="rDGJeb" jsaction="sPvj8e:e4JwSe,vwKRrd;" data-required="true" data-item-id="672568694">
+								 
+								   <div class="quantumWizTextinputPapertextareaEl modeLight freebirdFormviewerViewItemsTextLongText freebirdThemedInput"
+									jscontroller="pxq3x" jsaction="clickonly:KjsqPd; focus:Jt1EX; blur:fpfTEe; input:Lg5SV;" jsshadow="" jsname="W85ice">
+									   <div class="quantumWizTextinputPapertextareaMainContent exportContent">
+										   <div class="quantumWizTextinputPapertextareaContentArea exportContentArea">
+											   <textarea rows="5" class="form-control quantumWizTextinputPapertextareaInput exportTextarea" jsname="YPqjbf" data-rows="5" tabindex="0"
+												aria-label="Замечания по странице &amp;quot;Цена&amp;quot; на сайте &amp;quot;Бригада монтажников&amp;quot;"
+												jscontroller="gZjhIf" jsaction="input:Lg5SV;ti6hGc:XMgOHc;rcuQ6b:WYd;" required="" name="entry.487070157" dir="auto"
+												data-initial-dir="auto" data-initial-value=""></textarea>
+										   </div>
+										   <div class="quantumWizTextinputPapertextareaUnderline exportUnderline"></div>
+										   <div jsname="XmnwAc" class="quantumWizTextinputPapertextareaFocusUnderline exportFocusUnderline"></div>
+									   </div>
+									   <div class="quantumWizTextinputPapertextareaCounterErrorHolder">
+										   <div jsname="ty6ygf" class="quantumWizTextinputPapertextareaHint exportHint"></div>
+									   </div>
+								   </div>
+								   <div class="freebirdFormviewerViewItemsItemGradingGradingBox freebirdFormviewerViewItemsItemGradingFeedbackBox"
+									jsname="R7fTud"></div>
+								   <div jsname="XbIQze" class="freebirdFormviewerViewItemsItemErrorMessage" id="i.err.672568694" role="alert"></div>
+							   </div>
+						   </div>
+						   <div class="freebirdFormviewerViewNavigationNavControls" jscontroller="lSvzH" jsaction="rcuQ6b:npT2md;JIbuQc:Gl574d(QR6bsb),V3upec(GeGHKb),HiUbje(M2UYVd),NPBnCf(OCpkoe);"
+							data-shuffle-seed="-8705335079407402475" data-should-execute-invisible-captcha-challenge="false" data-is-receipt-checked="false">
+							   <div class="freebirdFormviewerViewNavigationButtonsAndProgress">
+								   <div class="freebirdFormviewerViewNavigationButtons">
+										<button type="submit" class="btn btn-default">Отправить</button>
+								   </div>
+							   </div>
+							   <div class="freebirdFormviewerViewNavigationPasswordWarning"></div>
+						   </div>
+						   <input type="hidden" name="fvv" value="1">
+						   <input type="hidden" name="draftResponse" value="[null,null,&quot;-8705335079407402475&quot;]
+				   ">
+						   <input type="hidden" name="pageHistory" value="0">
+						   <input type="hidden" name="fbzx" value="-8705335079407402475">
+					   </div>
+				   </div>
+			   </form>
+			</div>
+			<script>
+			$('#form').submit(function(event){
+				$.ajax({
+					url: 'https://docs.google.com/forms/d/e/1FAIpQLSe2BRZifbymxGiGJsZfKlZ-uTtO8HQg0zj-eHpO8W-1BLPU_Q/formResponse',
+					type: 'post',
+					dataType:'html',   //expect return data as html from server
+				data: $('#form').serialize(),
+				success: function(response, textStatus, jqXHR){
+					$('#feedback').html(response);   //select the id and put the response in the html
+					},
+				error: function(jqXHR, textStatus, errorThrown){
+					$('#feedback').html("Спасибо за отзыв!");  
+				}
+				});
+				return false;
+			});
+			</script>
+
+				
+			</div>
 		</div>
 	</div>
 </section>
