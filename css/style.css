@@ -69,6 +69,9 @@ header .navbar-default .navbar-nav li a:hover {
 .container>.navbar-header, .container-fluid>.navbar-header, .container>.navbar-collapse, .container-fluid>.navbar-collapse{
   margin-right: 0;
 }
+.post img {
+  max-width: 100%;
+}
 .logo{  
   opacity: 0.7;
 }
@@ -347,6 +350,9 @@ header {
 }
   .heading {
     padding-left: 0px;
+  }
+  h1{    
+    font-size: 22px;
   }
   h2 {
     font-size: 18px;
