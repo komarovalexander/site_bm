@@ -255,7 +255,7 @@ header .navbar-default .navbar-nav li a:hover {
     border-bottom: 1px solid #eee;
   }
   #portfolio-work .cell:hover {
-    background-color: #fff;
+    background-color: transparent;
   }
   #portfolio-work .cell, #portfolio-work .cell h3{
     margin-top: 0;
