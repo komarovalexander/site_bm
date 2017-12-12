@@ -1,21 +1,23 @@
 ---
 layout: page
 title: Наша работа | Бригада монтажников
-permalink: /workbeta/
+permalink: /work/
 ---
 <!-- Slider Start -->
-<section id="global-header">
+
+<section id="slider" class="work-slider">
   <div class="container">
     <div class="row">
-      <div class="col-md-12">
+      <div class="col-md-10">
         <div class="block">
-          <h1>Фотоотчеты наших работ с подробным описанием</h1>
-          <p>Примеры наших работ с описанием и фотографиями процесса:</p>
+          <h1>Пишем о монтажных работах</h1>
+            <p>Мы любим свою работу и готовы вам о ней рассказать в виде статей и фотографий. Мы верим что этот раздел поможет Вам больше узнать о нас.</p>
         </div>
       </div>
     </div>
   </div>
 </section>
+
 <section id="global-header">
   <div class="container">
     <div class="row">
@@ -23,7 +25,7 @@ permalink: /workbeta/
         {% for post in site.posts %}
         <div class="post-area">
           <h2><a href="{{ post.url | prepend: site.baseurl }}" class="bold">{{ post.title }}</a></h2>
-          <p class="post-date"><span><!-- Whitespace added for readability -->
+          <p class="post-date"><span>
 {% assign m = post.date | date: "%-m" %}
 {{ post.date | date: "%-d" }}
 {% case m %}
@@ -41,10 +43,12 @@ permalink: /workbeta/
   {% when '12' %}Декабря
 {% endcase %}
 {{ post.date | date: "%Y" }}</span></p>
+          <img src="{{ post.image | prepend: site.baseurl }}" alt="{{ post.title }}">
+          <br>           
           <p>
-            {{ post.content | strip_html | truncatewords: 37 }}
-          </p>
-          <a href="{{ post.url | prepend: site.baseurl }}" class="bold">Читать дальше</a>
+            {{ post.content | strip_html | truncatewords: 37 }} 
+          </p>         <br>          
+          <a href="{{ post.url | prepend: site.baseurl }}" class="btn btn-default">Читать&nbsp;дальше&nbsp;-></a>
         </div>
         {% endfor %}
       </div>
@@ -54,11 +58,16 @@ permalink: /workbeta/
 
 
 
-<section id="portfolio-work">
-    <div class="container">
+<section id="portfolio-work" class="more-pictures">
+    <div class="container">      
+        <div class="row">
+          <div class="col-md-12 col-sm-12 header-photos">
+            <h2>Фотографии работ наших бригад:</h2>
+          </div>
+        </div>
         <div class="row container">
             <div class="grid">
-                  <div class="cell main">
+                  <div class="cell">
                     <h3>Цех ремонта сельскохозяйственной техники. Воронежская область</h3>
                     <p>Монтаж металлоконструкций, зима не помеха.</p>
                     <img src="../img/portfolio/32.jpg" alt="Монтаж металлоконструкций, зима не помеха.">   
@@ -74,113 +83,19 @@ permalink: /workbeta/
                     <img src="../img/portfolio/17.jpg" alt="Цех ремонта сельскохозяйственной техники">   
                   </div>
                   <div class="cell">
-                    <h3>Племенная ферма Липецкая область</h3>
-                    <p>Выполнялись работы по монтажу металлоконструкций и сэндвич-панелей.</p>
-                    <img src="../img/portfolio/1.jpg" alt="Племенная ферма. Работы по монтажу металлоконструкций и сэндвич-панелей">   
-                  </div>
-                  <div class="cell">
-                    <h3>Cкладской комплекс в Курской области</h3>
-                    <p>Был произведен полный цикл работ. На фотографии показан процесс заливки и затирки пола нанесение топпинга и лака.</p>
-                    <img src="../img/portfolio/2.jpg" alt="Складской комплекс. Процесс заливки и затирки пола нанесение топпинга и лака">                
-                  </div>
-                  <div class="cell">      
-                    <h3>Комплекс торговых павильонов из четырех зданий в Раменском районе Московской области</h3>
-                    <p>Выполнены работы по устройству фундамента и монтажу металлоконструкций. На фото процесс сборки и монтажа каркаса.</p>        
-                    <img src="../img/portfolio/3.jpg" alt="Комплекс торговых павильонов. Сборка и монтаж каркаса">   
-                  </div>
-                  <div class="cell">
                     <h3>Комплекс торговых павильонов из четырех зданий в Раменском районе Московской области</h3>
                     <p>Выполнены работы по устройству фундамента и монтажу металлоконструкций. На фото собраный каркас здания.</p>        
                     <img src="../img/portfolio/13.jpg" alt="Комплекс торговых павильонов. Каркас здания">   
                   </div>
-                  <div class="cell">
-                    <h3>Строительство автомойки в Тульской области</h3>
-                    <p>Произведен полный комплекс работ. От фундамента до отделки.</p>   
-                    <img src="../img/portfolio/4.jpg" alt="Автомойка. От фундамента до отделки">   
-                  </div>
-                  <div class="cell">
-                    <h3>Строительство мансардного этажа</h3>
-                    <p>Выполнена работа по монтажу металлоконструкций</p>        
-                    <img src="../img/portfolio/6.jpg" alt="Мансардный этаж. Работа по монтажу металлоконструкций">   
-                  </div>
-                  <div class="cell">
-                    <h3>Строительство складского ангара в Московской области, город Серпухов</h3>
-                    <p>Устройство фундамента, установка каркаса, обшивка и заливка полов.</p>    
-                    <img src="../img/portfolio/7.jpg" alt="Ангар. Работа по устройству фундамента, установки каркаса, обшивки и заливки полов">   
-                  </div>
-                  <div class="cell">
-                    <h3>Строительство торгового павильона в Московской области, Раменский район</h3>
-                    <p>Устройство столбчатых фундаментов и монтаж металлоконструкций.</p>    
-                    <img src="../img/portfolio/8.jpg" alt="Торговый павильон. Устройство столбчатых фундаментов и монтаж металлоконструкций.">   
-                  </div>
-                  <div class="cell">
-                    <h3>Процесс монтажа ферм и ЛСТК</h3>
-                    <img src="../img/portfolio/9.jpg" alt="Процесс монтажа ферм и ЛСТК">   
-                  </div>
-                  <div class="cell">
-                    <h3>Процесс монтажа ферм и ЛСТК</h3>
-                    <img src="../img/portfolio/10.jpg" alt="Процесс монтажа ферм и ЛСТК">   
-                  </div>
-                  <div class="cell">
-                    <h3>Обшивка здания профлистом. Московская область, Оболенск</h3>
-                    <img src="../img/portfolio/11.jpg" alt="Обшивка здания профлистом.">   
-                  </div>
-                  <div class="cell">
-                    <h3>Строительство птицефабрики. Астраханская область</h3>
-                    <p>Процесс монтажа сэндвич-панелей вручную.</p>    
-                    <img src="../img/portfolio/14.jpg" alt="Строительство птицефабрики. Процесс монтажа сэндвич-панелей вручную.">   
-                  </div>
-                  <div class="cell">
-                    <h3>Птицефабрика. Тульская область</h3>
-                    <img src="../img/portfolio/15.jpg" alt="Птицефабрика">   
-                  </div>
-                  <div class="cell">
-                    <h3>Холодильное здание для хранение овощей. Московская область</h3>
-                    <img src="../img/portfolio/18.jpg" alt="Холодильное здание для хранение овощей">   
-                  </div>
-                  <div class="cell">
-                    <h3>Холодильное здание для хранение овощей. Московская область</h3>
-                    <img src="../img/portfolio/19.jpg" alt="Холодильное здание для хранение овощей">   
-                  </div>
-                  <div class="cell">
-                    <h3>Склад. Процесс монтажа. Московская область</h3>
-                    <img src="../img/portfolio/20.jpg" alt="Склад. Процесс монтажа">   
-                  </div>
-                  <div class="cell">
-                    <h3>Склад. Московская область</h3>
-                    <img src="../img/portfolio/21.jpg" alt="Склад. Процесс монтажа">   
-                  </div>
-                  <div class="cell">
-                    <h3>Склад. Московская область</h3>
-                    <img src="../img/portfolio/22.jpg" alt="Склад. Процесс монтажа">   
-                  </div>
-                  <div class="cell">
-                    <h3>Склад. Московская область</h3>
-                    <img src="../img/portfolio/23.jpg" alt="Склад. Процесс монтажа">   
-                  </div>
-                  <div class="cell">
-                    <h3>Зернохранилище. Краснодарский край</h3>
-                    <img src="../img/portfolio/25.jpg" alt="Зернохранилище. Краснодарский край">   
-                  </div>
-                  <div class="cell">
-                    <h3>Зернохранилище. Краснодарский край</h3>
-                    <img src="../img/portfolio/26.jpg" alt="Зернохранилище. Краснодарский край">   
-                  </div>
-                  <div class="cell">
-                    <h3>Спорт комплекс. Ростовская область</h3>
-                    <img src="../img/portfolio/27.jpg" alt="Спорт комплекс. Процесс монтажа">   
-                  </div>
-                  <div class="cell">
-                    <h3>Спорт комплекс. Ростовская область</h3>
-                    <img src="../img/portfolio/29.jpg" alt="Спорт комплекс. Процесс монтажа">   
-                  </div>
-                  <div class="cell">
-                    <h3>Спортивная арена</h3>
-                    <img src="../img/portfolio/30.jpg" alt="Спортивная арена. Процесс монтажа">   
-                  </div>
+                  
                 </div>
               </div>
-    </div>
+          <div class="row">
+            <div class="col-md-12 col-sm-12">
+              <div class="load-more-btn"><a href="/work/pictures/" class="btn btn-default">Загрузить больше фотографий</a></div>
+            </div>
+          </div>
+        </div>
 </section>
 
 

@@ -36,11 +36,24 @@ a:focus,
 a:active {
   text-decoration: none !important;
 }
+#global-header{
+  padding-top: 40px;
+}
+.post-area {
+  margin-bottom: 70px;
+}
+.post-area img {
+  max-height: 450px;
+}
 .section-title {
   margin-bottom: 0px;
 }
 .section-title p {
   color: #333;
+}
+.load-more-btn{
+  margin: 20px auto 40px auto;
+  width: 230px;
 }
 header {
   background: #fff;
@@ -87,7 +100,10 @@ header .navbar-default .navbar-nav li a:hover {
 .container-fluid{
   padding: 0;
 }
-
+.header-photos{
+  margin-top: 50px;
+  margin-bottom: 0px; 
+}
 
 #slider {
   background: url(../img/slider-bg.jpg) no-repeat;
@@ -95,6 +111,9 @@ header .navbar-default .navbar-nav li a:hover {
   background-position: center;
   padding: 50px 0;
   position: relative;
+}
+#slider.work-slider{
+  background: url(../../img/collage.jpg) no-repeat;  
 }
 
 #slider:before {
@@ -188,6 +207,11 @@ header .navbar-default .navbar-nav li a:hover {
   max-width: 100%;
 }
 
+.more-pictures{
+    margin-top: 70px;  
+    background-color: #eee;
+}
+
 #portfolio-work .cell {
     padding: 20px;
     width: 50%;
@@ -198,11 +222,11 @@ header .navbar-default .navbar-nav li a:hover {
     width: 100%;
     padding: 0;
     margin: 0;
-    background-color: #fff;
+    background-color: transparent;
     cursor: default;
   }
   #portfolio-work .cell.main:hover {
-    background-color: #fff;
+    background-color: transparent;
   }
 
 
@@ -224,7 +248,7 @@ header .navbar-default .navbar-nav li a:hover {
     width: 100%;
     padding: 40px 0;
     margin: 0;
-    background-color: #fff;
+    background-color: transparent;
     cursor: default;
     border-bottom: 1px solid #eee;
   }

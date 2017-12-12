@@ -6,7 +6,7 @@ $(document).ready(function(){
 			item.off("click");
 			item.animate({
 			    width: $(".cell.main").width()
-			  }, 200, function() {
+			  }, 0, function() {
 			  		item.removeAttr("style");
 					item.addClass("main");
 			  });
