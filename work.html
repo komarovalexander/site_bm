@@ -26,7 +26,7 @@ breadcrumb: "Наша работа"
         {% for post in site.posts %}
         <div class="post-area">
           <h2><a href="{{ post.url | prepend: site.baseurl }}" class="bold">{{ post.title }}</a></h2>
-          <p class="post-date"><i>{{post.author}}</i>, <i>
+          <p class="post-date"><!--i>{{post.author}}, </i--><i>
 {% assign m = post.date | date: "%-m" %}
 {{ post.date | date: "%-d" }}
 {% case m %}
