@@ -336,6 +336,7 @@ footer .footer-manu ul li a:hover {
           Index Start 
 -----------------------------------------------*/
 
+  
 .navbar-default .navbar-collapse{  
   border-bottom: 1px solid rgba(0,0,0,0.1);
 }
@@ -344,7 +345,8 @@ header {
 }
 .logo img {
   height: 40px;
-  margin: 20px 0 0 10px;
+  margin: 25px 0 0 10px;  
+    top: -11px;
 }
 
 .service, .intro, #slider, #feature{
@@ -407,10 +409,6 @@ header {
 }
 
 @media screen and (max-width: 600px) {
-  .logo img { 
-    margin-top: 25px;    
-    top: -11px;
-  }
   #portfolio-work .cell, #portfolio-work .cell.main {
     width: 100%;
     padding: 40px 0;
