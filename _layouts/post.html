@@ -45,7 +45,6 @@ layout: page
       {% for post in site.posts %}
         {% if page != post %}
           <a href="{{ post.url | prepend: site.baseurl }}" class="bold">{{ post.title }}</a>
-          <br>
         {% endif %}
       {% endfor %}     
       </div>
