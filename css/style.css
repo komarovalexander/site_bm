@@ -8,6 +8,7 @@
 body{
   overflow-y: scroll;
 }
+
 h3 {
   font-size: 22px;
   font-weight: 300;
@@ -28,6 +29,10 @@ p {
 .breadcrumb{
   margin-bottom: 0;  
   background-color: transparent;
+}
+.see-also {  
+  background-color: #EEE;
+  padding: 10px 10px 20px 10px;
 }
 ul {
   padding: 0;
@@ -192,10 +197,12 @@ header .navbar-default .navbar-nav li a:hover {
 #price #feedback .btn{
   margin: 15px 0 30px 0;
 }
+#price h2, #price h1 {
+  padding: 2px 20px;
+}
 #price h2 {
     background-color: #EEE;
     color: black;
-    padding: 2px 20px;
 }
 #call-to-action {
   background-color: #222;
@@ -252,23 +259,7 @@ header .navbar-default .navbar-nav li a:hover {
   }
   #portfolio-work .cell:hover {
     background-color: #ddd;
-  }
-@media screen and (max-width: 600px) {
-  #portfolio-work .cell, #portfolio-work .cell.main {
-    width: 100%;
-    padding: 40px 0;
-    margin: 0;
-    background-color: transparent;
-    cursor: default;
-    border-bottom: 1px solid #eee;
-  }
-  #portfolio-work .cell:hover {
-    background-color: transparent;
-  }
-  #portfolio-work .cell, #portfolio-work .cell h3{
-    margin-top: 0;
-  }
-}  
+  } 
 .col-md-12{
   padding-right: 0;
 }
@@ -317,49 +308,6 @@ footer .footer-manu ul li a:hover {
   padding: 50px 0;
 }
 
-@media(max-width: 990px) {
-  .logo img {
-    height: 40px;
-    top: -11px;
-  }
-  .intro .block img {
-    margin-top: 20px;
-    margin-left: 0;
-  }
-
-  #slider .block h1 {    
-    line-height: 35px; 
-  }
-
-  header .navbar-default .navbar-nav {
-    padding-top: 0;
-  }
-  .service {
-    padding: 30px 0;    
-  }
-  .service img {
-    display: none;
-  }
-
-  #call-to-action {
-    text-align: left;
-    padding: 40px 0 20px 0px;
-  }
-}
-
-.italic {
- font-style: italic;
-}
-
-.bold {
- font-weight: bold;
-}
-
-.center-text {
- text-align: center;
-}
-
-
 @media only screen and (max-width: 768px) {
   /*---------------------------------------------
           Index Start 
@@ -373,7 +321,7 @@ header {
 }
 .logo img {
   height: 40px;
-  margin: 25px 0 0 10px;
+  margin: 20px 0 0 10px;
 }
 
 .service, .intro, #slider, #feature{
@@ -398,7 +346,9 @@ header {
     margin-top: 20px;
     margin-bottom: 20px;
   }
-  
+  header .navbar-default .navbar-nav {
+    padding-top: 0;
+  }
   header .navbar-default .navbar-nav li a {
     padding-right: 15px;
     text-align: right;
@@ -430,4 +380,26 @@ header {
   footer a {    
     color: #999;
   }
+  
 }
+
+@media screen and (max-width: 600px) {
+  .logo img { 
+    margin-top: 25px;    
+    top: -11px;
+  }
+  #portfolio-work .cell, #portfolio-work .cell.main {
+    width: 100%;
+    padding: 40px 0;
+    margin: 0;
+    background-color: transparent;
+    cursor: default;
+    border-bottom: 1px solid #eee;
+  }
+  #portfolio-work .cell:hover {
+    background-color: transparent;
+  }
+  #portfolio-work .cell, #portfolio-work .cell h3{
+    margin-top: 0;
+  }
+} 

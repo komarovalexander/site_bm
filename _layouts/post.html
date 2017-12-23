@@ -35,9 +35,29 @@ layout: page
           </div>
         </div><!-- .col-md-7 close -->
       </div>
+     
+    <br>
+    <br>
+    <br>
+    <div class="see-also">
+      <h4>Читайте также:</h4> 
+      <div class="see-also-links">
+      {% for post in site.posts %}
+        {% if page != post %}
+          <a href="{{ post.url | prepend: site.baseurl }}" class="bold">{{ post.title }}</a>
+          <br>
+        {% endif %}
+      {% endfor %}     
+      </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <p>
+      <a class="" href="{{ site.baseurl }}/work/">&lt; Назад к нашим работам</a>
+    </p>
     </div>
   </section>
 </div>
-<p class="center-text" style="padding: 30px;">
-  <a href="{{ site.baseurl }}/work/">Назад к нашим работам</a>
-</p>
+
