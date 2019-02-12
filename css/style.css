@@ -27,14 +27,14 @@ p {
   background-color: #f5f5f5;
 }
 .breadcrumb{
-  margin-bottom: 0;  
+  margin-bottom: 0;
   background-color: transparent;
 }
-.see-also {  
+.see-also {
   background-color: #EEE;
   padding: 10px 10px 20px 10px;
 }
-.see-also a{  
+.see-also a{
     display: block;
     margin-top: 7px;
 }
@@ -104,10 +104,10 @@ header .navbar-default .navbar-nav li a:hover {
 .post img {
   max-width: 100%;
 }
-.logo{  
+.logo{
   opacity: 0.7;
 }
-.logo:hover{  
+.logo:hover{
   opacity: 1;
 }
 .logo img {
@@ -121,18 +121,15 @@ header .navbar-default .navbar-nav li a:hover {
 }
 .header-photos{
   margin-top: 50px;
-  margin-bottom: 0px; 
+  margin-bottom: 0px;
 }
 
 #slider {
-  background: url(../img/slider-bg.jpg) no-repeat;
-  background-size: cover;
-  background-position: center;
   padding: 50px 0;
   position: relative;
 }
 #slider.work-slider{
-  background: url(../../img/collage.jpg) no-repeat;  
+  background: url(../../img/collage.jpg) no-repeat;
 }
 
 #slider:before {
@@ -173,22 +170,22 @@ header .navbar-default .navbar-nav li a:hover {
 .service {
     text-align: left;
     background-color: #EEE;
-    color: black;  
+    color: black;
 }
 .service.white{
   background-color: white;
 }
 .service.black {
     background-color: #333;
-    color: white;  
+    color: white;
 }
-.service.black a {  
+.service.black a {
     color: #86cffe;
 }
 .service.black a:hover, .service.black a:focus {
     color: #4ea8da;
 }
-.service .agile {  
+.service .agile {
     width: 100%;
 }
 .table {
@@ -232,7 +229,7 @@ header .navbar-default .navbar-nav li a:hover {
 }
 
 .more-pictures{
-    margin-top: 20px;  
+    margin-top: 20px;
     background-color: #eee;
 }
 
@@ -266,7 +263,7 @@ header .navbar-default .navbar-nav li a:hover {
   }
   #portfolio-work .cell:hover {
     background-color: #ddd;
-  } 
+  }
 .col-md-12{
   padding-right: 0;
 }
@@ -321,11 +318,11 @@ footer .footer-manu ul li a:hover {
     margin-left: 0;
   }
 
-  #slider .block h1 {    
-    line-height: 35px; 
+  #slider .block h1 {
+    line-height: 35px;
   }
   .service {
-    padding: 30px 0;    
+    padding: 30px 0;
   }
   .service img {
     display: none;
@@ -340,11 +337,11 @@ footer .footer-manu ul li a:hover {
 
 @media only screen and (max-width: 768px) {
   /*---------------------------------------------
-          Index Start 
+          Index Start
 -----------------------------------------------*/
 
-  
-.navbar-default .navbar-collapse{  
+
+.navbar-default .navbar-collapse{
   border-bottom: 1px solid rgba(0,0,0,0.1);
 }
 header {
@@ -352,7 +349,7 @@ header {
 }
 .logo img {
   height: 40px;
-  margin: 25px 0 0 10px;  
+  margin: 25px 0 0 10px;
     top: -11px;
 }
 
@@ -365,7 +362,7 @@ header {
   .heading {
     padding-left: 0px;
   }
-  h1{    
+  h1{
     font-size: 22px;
   }
   h2 {
@@ -398,7 +395,7 @@ header {
     display: none;
   }
 
-  footer {    
+  footer {
     padding-top: 0px;
     text-align: left;
   }
@@ -406,13 +403,13 @@ header {
     padding: 20px 0;
   }
   footer .footer-manu ul li {
-    width: 100%;    
+    width: 100%;
     padding: 5px 0;
   }
-  footer a {    
+  footer a {
     color: #999;
   }
-  
+
 }
 
 @media screen and (max-width: 600px) {
@@ -430,4 +427,4 @@ header {
   #portfolio-work .cell, #portfolio-work .cell h3{
     margin-top: 0;
   }
-} 
+}
