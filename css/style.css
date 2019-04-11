@@ -7,6 +7,7 @@
 --*/
 body{
   overflow-y: scroll;
+  font-family: 'Montserrat', sans-serif;
 }
 
 h3 {
@@ -21,7 +22,9 @@ p {
     margin-right: 10px;
 }
 .btn-info{
-  background-color: #428bca;
+  background-color: white;
+  color: black;
+  margin: 40px auto;
 }
 .breadcrumb-back {
   background-color: #f5f5f5;
@@ -74,8 +77,8 @@ a:active {
   width: 230px;
 }
 header {
-  background: #fff;
-  padding: 20px 0 10px 0;
+  background-color: #1A1A1A;
+  padding: 20px 0;
     border-bottom: 1px solid rgba(0,0,0,0.1);;
 }
 header .navbar {
@@ -90,7 +93,7 @@ header .navbar-default .navbar-nav {
   padding-top: 10px;
 }
 header .navbar-default .navbar-nav li a {
-  color: #333333;
+  color: white;
   padding: 10px 26px;
   font-size: 15px;
 }
@@ -105,7 +108,7 @@ header .navbar-default .navbar-nav li a:hover {
   max-width: 100%;
 }
 .logo{
-  opacity: 0.7;
+  opacity: 0.9;
 }
 .logo:hover{
   opacity: 1;
@@ -113,7 +116,6 @@ header .navbar-default .navbar-nav li a:hover {
 .logo img {
   height: 45px;
   position: relative;
-  top: -5px;
 }
 
 .container-fluid{
@@ -125,11 +127,14 @@ header .navbar-default .navbar-nav li a:hover {
 }
 
 #slider {
-  padding: 50px 0;
   position: relative;
+  background: url(../../img/main.png) no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  height: 600px;
+  text-align: center;
 }
 #slider.work-slider{
-  background: url(../../img/collage.jpg) no-repeat;
 }
 
 #slider:before {
@@ -142,7 +147,7 @@ header .navbar-default .navbar-nav li a:hover {
   width: 100%;
   height: 100%;
   background: #333;
-  opacity: 0.8;
+  opacity: 0.7;
 }
 
 #slider .block {
@@ -151,7 +156,113 @@ header .navbar-default .navbar-nav li a:hover {
 
 #slider .block h1 {
   padding-bottom: 0;
-  margin-top: 0;
+  margin-top: 190px;
+  margin-bottom: 50px;
+}
+
+#slider .main-text {
+  font-size: 18px;
+  width: 453px;
+  margin: 0 auto;
+  line-height: 31px;
+}
+
+.experience {
+  margin-top: 90px;
+  margin-bottom: 130px;
+  flex-flow: inherit;
+}
+
+.experience p {margin-top: 20px;margin-bottom: 45px;}
+
+.experience .row {
+  display: flex;
+  align-items: center;
+}
+
+
+#services {
+  position: relative;
+  background-size: cover;
+  background-position: 0 -161px;
+}
+
+#services:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 450px;
+  background: url(../../img/services.png) no-repeat;
+  background-size: cover;
+}
+
+#services .block {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+#services h2 {
+  color: #FFF;
+  padding-bottom: 0;
+  margin-top: 120px;
+  margin-bottom: 60px;
+}
+
+#services h3 {
+  margin-bottom: 20px;
+  font-size: 18px;
+  line-height: 27px;
+}
+
+#services h3, #services .block p {
+  color: #1A1A1A;
+}
+
+#services .btn-default {
+  width: 100%;
+  margin-top: 41px;
+}
+
+#services .col-md-3 {
+  text-align: center;
+  padding-top: 35px;
+  font-size: 18px;
+  line-height: 27px;
+  background-color: white;
+  padding-top: 35px;
+  padding-bottom: 45px;
+  box-shadow: 4px 4px 25px rgba(0, 0, 0, 0.1);
+  width: 23%;
+  min-width: 238px;
+}
+
+#services .col-md-3 .btn {
+  width: 190px;
+  margin-top: 20px;
+}
+
+#services .main-text {
+  font-size: 18px;
+  width: 453px;
+  margin: 0 auto;
+  line-height: 31px;
+}
+
+
+.btn-default{
+  background-color: #1A1A1A;
+  color: white;
+  border: 2px solid #1a1a1a;
+}
+
+.btn-info-border{
+  color: #1A1A1A;
+  border: 2px solid #1A1A1A;
 }
 
 .intro {
@@ -167,10 +278,13 @@ header .navbar-default .navbar-nav li a:hover {
   padding-top: 20px;
 }
 
+.services-page .experience {
+  margin-top: 67px;
+  margin-bottom: 49px;
+}
+
 .service {
-    text-align: left;
-    background-color: #EEE;
-    color: black;
+    color: #1A1A1A;
 }
 .service.white{
   background-color: white;
@@ -265,7 +379,7 @@ header .navbar-default .navbar-nav li a:hover {
     background-color: #ddd;
   }
 .col-md-12{
-  padding-right: 0;
+  /* padding-right: 0; */
 }
 #portfolio-work .col-md-12 img{
   width: 100%;
@@ -276,10 +390,13 @@ header .navbar-default .navbar-nav li a:hover {
   footer Start
 --*/
 footer {
-  background: #F5F5F5;
   text-align: center;
-  padding-top: 30px;
   padding-bottom: 0;
+  margin-top:  90px;
+}
+footer .container{
+  border-top: 1px solid #E8E8E8;
+  padding-top: 30px;
 }
 footer p {
   font-size: 13px;
@@ -291,6 +408,7 @@ footer a {
 }
 footer .footer-manu {
   padding-bottom: 25px;
+  text-align: right;
 }
 footer .footer-manu ul {
   margin: 0px;
@@ -298,7 +416,7 @@ footer .footer-manu ul {
 }
 footer .footer-manu ul li {
   display: inline-block;
-  padding: 0px 20px;
+  padding: 0px 17px;
 }
 footer .footer-manu ul li a {
   display: inline-block;
@@ -308,8 +426,13 @@ footer .footer-manu ul li a:hover {
   color: #000;
 }
 
+footer .col-md-12 {
+  display: flex;
+  justify-content: space-between;
+}
+
 .service, .intro, #slider, #feature {
-  padding: 50px 0;
+  /* padding: 50px 0; */
 }
 
 @media(max-width: 990px) {
@@ -428,3 +551,4 @@ header {
     margin-top: 0;
   }
 }
+
