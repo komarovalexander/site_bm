@@ -320,6 +320,11 @@ header .navbar-default .navbar-nav li a:hover {
   margin-bottom: 49px;
 }
 
+.experience img {
+
+  max-width: 100%;
+}
+
 .service {
     color: #1A1A1A;
 }
