@@ -285,7 +285,7 @@ header .navbar-default .navbar-nav li a:hover {
 
 #services .main-text {
   font-size: 18px;
-  width: 453px;
+  max-width: 453px;
   margin: 0 auto;
   line-height: 31px;
 }
