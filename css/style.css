@@ -618,5 +618,8 @@ header {
   #portfolio-work .cell, #portfolio-work .cell h3{
     margin-top: 0;
   }
+  .experience .btn {
+    width: 100%;
+  }
 }
 
