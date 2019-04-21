@@ -216,6 +216,14 @@ header .navbar-default .navbar-nav li a:hover {
   background-position: 0 -161px;
 }
 
+#services .col-md-3.col-sm-12 {
+  font-size: 14px;
+  line-height: 21px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
 #services:before {
   content: "";
   position: absolute;
