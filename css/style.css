@@ -574,11 +574,15 @@ header {
     padding-right: 15px;
     text-align: right;
   }
+  #slider{
+    height: 475px;
+  }
   #slider .block {
     padding-left: 0px;
   }
   #slider .block h1 {
     font-size: 22px;
+    margin-top: 60px;
   }
   #slider .block p {
     font-size: 18px;
