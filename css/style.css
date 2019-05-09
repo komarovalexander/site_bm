@@ -145,9 +145,9 @@ header .navbar-default .navbar-nav li a:hover {
 
 #slider {
   position: relative;
-  background: url(../../img/main.jpeg) no-repeat;
+  background: url(../../img/slider-bg.jpg) no-repeat;
   background-size: cover;
-  background-position: top center;
+  background-position: center;
   height: 600px;
   text-align: center;
 }
@@ -577,10 +577,10 @@ header {
     padding-left: 0px;
   }
   #slider .block h1 {
-    font-size: 20px;
+    font-size: 22px;
   }
   #slider .block p {
-    font-size: 15px;
+    font-size: 18px;
   }
    .map {
     display: none;
@@ -604,6 +604,9 @@ header {
 }
 
 @media screen and (max-width: 600px) {
+  #services .col-md-3{
+    width: 100%;
+  }
   #portfolio-work .cell, #portfolio-work .cell.main {
     width: 100%;
     padding: 40px 0;
