@@ -13,7 +13,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             </button>
-            <a href="/" class="navbar-left logo"><img src="img/logo.svg" alt="Бригада монтажников" />
+            <a href="{{ site.baseurl }}" class="navbar-left logo"><img src="img/logo.svg" alt="Бригада монтажников" />
           </a>
             <!--<a class="navbar-brand" href="index.html">
               <img src="{{ site.baseurl }}img/logo.png" alt="Logo">
@@ -22,11 +22,11 @@
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
               <ul class="nav navbar-nav navbar-right">
-                <li {% if page.permalink == "/" %} class="active" {% endif %}><a href="{{ site.baseurl }}/">О нас</a></li>
-                <li {% if page.permalink contains "/services/" %} class="active" {% endif %}><a href="{{ site.baseurl }}/services/">Услуги</a></li>
-                <li {% if page.permalink contains "/work/" %} class="active" {% endif %}><a href="{{ site.baseurl }}/work/">Портфолио</a></li>
-                <li {% if page.permalink == "/price/" %} class="active" {% endif %}><a href="{{ site.baseurl }}/price/">Цены</a></li>
-                <li {% if page.permalink == "/contact/" %} class="active" {% endif %}><a href="{{ site.baseurl }}/contact/">Контакты</a></li>
+                <li {% if page.permalink == site.baseurl %} class="active" {% endif %}><a href="{{ site.baseurl }}/">О нас</a></li>
+                <li {% if page.permalink contains "services/" %} class="active" {% endif %}><a href="{{ site.baseurl }}/services/">Услуги</a></li>
+                <li {% if page.permalink contains "work/" %} class="active" {% endif %}><a href="{{ site.baseurl }}/work/">Портфолио</a></li>
+                <li {% if page.permalink == "price/" %} class="active" {% endif %}><a href="{{ site.baseurl }}/price/">Цены</a></li>
+                <li {% if page.permalink == "contact/" %} class="active" {% endif %}><a href="{{ site.baseurl }}/contact/">Контакты</a></li>
               </ul>
             </div><!-- /.navbar-collapse -->
           </div><!-- /.container-fluid -->
