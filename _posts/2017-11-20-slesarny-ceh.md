@@ -3,7 +3,7 @@ layout: post
 title: Слесарный цех. Устройство промышленных полов, монтаж металлоконструкций и сэндвич панелей.
 author: Александр Комаров
 permalink: /work/:title
-image: img/portfolio/buildings/rentgennprom/5.jpg
+image: /img/portfolio/buildings/rentgennprom/5.jpg
 breadcrumb: "Слесарный цех"
 description: "Слесарный цех. Устройство промышленных полов, монтаж металлоконструкций и сэндвич панелей."
 ---

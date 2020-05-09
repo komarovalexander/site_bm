@@ -3,7 +3,7 @@ layout: post
 title: Мансардный этаж здания. Монтаж металлоконструкций
 author: Александр Комаров
 permalink: /work/:title
-image: img/portfolio/buildings/ars_stroy_vidnoe/6.jpg
+image: /img/portfolio/buildings/ars_stroy_vidnoe/6.jpg
 breadcrumb: "Мансардный этаж здания"
 description: "Расскажем о том как выполняли работу по монтажу мансардного этажа здания предназначенного для фитнес клуба. Общая металлоемкость 140 тонн."
 ---
