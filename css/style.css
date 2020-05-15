@@ -33,6 +33,7 @@ h3 {
   font-weight: 300;
 }
 p {
+  margin: 10px 0;
   font-size: 15px;
   line-height: 25px;
 }
@@ -635,3 +636,9 @@ header {
   }
 }
 
+.services-page img{
+  width: 100%;
+}
+.services-page .col-md-12{
+  margin: 20px 0;
+}
