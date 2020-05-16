@@ -642,3 +642,6 @@ header {
 .services-page .col-md-12{
   margin: 20px 0;
 }
+.services-page ul{
+  list-style-type: disc;
+ }
