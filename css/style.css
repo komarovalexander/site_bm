@@ -150,7 +150,7 @@ header .navbar-default .navbar-nav li a:hover {
 
 #slider {
   position: relative;
-  background: url(../../img/slider.jpg) no-repeat;
+  background: url(../../img/slider.png) no-repeat;
   background-size: cover;
   background-position: center;
   height: 600px;
@@ -651,3 +651,6 @@ header {
     width: 100%;
   }
 }
+.about a{
+  color: #428bca;
+}  
