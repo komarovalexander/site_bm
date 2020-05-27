@@ -1,6 +1,7 @@
 ---
 layout: post
-title: Мансардный этаж здания. Монтаж металлоконструкций
+title: Мансардный этаж здания
+title1: Монтаж металлоконструкций
 author: Александр Комаров
 permalink: /work/:title
 image: /img/portfolio/buildings/ars_stroy_vidnoe/6.jpg

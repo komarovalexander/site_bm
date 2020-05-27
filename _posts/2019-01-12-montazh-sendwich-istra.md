@@ -1,6 +1,7 @@
 ---
 layout: post
-title: Монтаж сендвич-панелей в Московской области, город Истра
+title: Монтаж сендвич-панелей
+title1: город Истра, Московская область
 author: Александр Комаров
 permalink: /work/:title
 image: /img/portfolio/buildings/istra/2.jpg

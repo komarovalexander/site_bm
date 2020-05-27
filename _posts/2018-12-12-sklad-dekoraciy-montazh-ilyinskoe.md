@@ -1,6 +1,7 @@
 ---
 layout: post
-title: Склад декораций в Ильинском. Монтаж металлоконструкций и сэндвич-панелей
+title: Склад декораций в Ильинском
+title1: Монтаж металлоконструкций и сэндвич-панелей
 author: Александр Комаров
 permalink: /work/:title
 image: /img/portfolio/buildings/ilinskoe/34.jpg
