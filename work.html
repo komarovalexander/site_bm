@@ -35,7 +35,7 @@ description: "Статьи и фотографии с работами бриг�
   {{ firstPost.date | date: "%Y" }}</i></p>
             <br>
             <p>
-              {{ firstPost.content | strip_html | truncatewords: 37 }}
+              {{ firstPost.content | strip_html | truncatewords: 25 }}
             </p>         <br>
             <a href="{{ firstPost.url | prepend: site.baseurl }}" class="btn btn-info">Читать&nbsp;дальше&nbsp;&gt;</a>
           </div>

@@ -80,6 +80,11 @@ a:active {
 #global-header{
   padding-top: 40px;
 }
+.post-area p {
+  margin: 0 0;
+  font-size: 15px;
+  line-height: 25px;
+}
 .post-area {
   margin-bottom: 70px;
 }
