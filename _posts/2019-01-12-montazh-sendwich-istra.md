@@ -9,7 +9,16 @@ breadcrumb: "Монтаж сендвич-панелей в Московской 
 description: "В 2018 было много работы, но не смотря на это мы решили продолжить цикл статей о нашем деле"
 date: 2019-01-12
 ---
-
+<div class="fotorama"
+     data-nav="thumbs"
+     data-allowfullscreen="native"
+     data-loop="true">
+  <img src="/img/portfolio/buildings/istra/1.jpg">
+  <img src="/img/portfolio/buildings/istra/2.jpg">
+  <img src="/img/portfolio/buildings/istra/3.jpg">
+  <img src="/img/portfolio/buildings/istra/4.jpg">
+  <img src="/img/portfolio/buildings/istra/5.jpg">
+</div>
 В декабре 2018 года поступил заказ на монтаж здания, размеры 72 х 24 метра, высота 7.5.
 
 
