@@ -80,6 +80,11 @@ a:active {
 #global-header{
   padding-top: 40px;
 }
+.post-area p {
+  margin: 0 0;
+  font-size: 15px;
+  line-height: 25px;
+}
 .post-area {
   margin-bottom: 70px;
 }
@@ -285,7 +290,7 @@ header .navbar-default .navbar-nav li a:hover {
 #sliderw .block h1 {
   padding-bottom: 0;
   margin-top: 100px;
-  margin-bottom: 19px;
+  margin-bottom: 20px;
 }
 
 #sliderw .main-text {
