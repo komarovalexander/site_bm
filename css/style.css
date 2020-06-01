@@ -97,9 +97,9 @@ a:active {
 .post-area:nth-child(2n) .stick{
   left: 20px;
 }
-
 .post-area:nth-child(2n) .bold2-wrapper{  
   flex-direction: row-reverse;
+  Justify-content: space-between;
 }
 .post-area:nth-child(2n) img {
   max-height: 450px;
@@ -334,7 +334,7 @@ header .navbar-default .navbar-nav li a:hover {
   left: -100px;
 }
 .bold2-wrapper{  
-  display: flex;
+  display: flex; 
 }
 
 #services {
