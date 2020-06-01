@@ -13,14 +13,14 @@ date: 2016-11-09
      data-nav="thumbs"
      data-allowfullscreen="native"
      data-loop="true">
-  <img src="/img/portfolio/buildings/block_Zudna/8-min.jpg">
+  <img src="/img/portfolio/buildings/block_Zudna/1-min.jpg">
   <img src="/img/portfolio/buildings/block_Zudna/2-min.jpg">
   <img src="/img/portfolio/buildings/block_Zudna/3-min.jpg">
-  <img src="/img/portfolio/buildings/block_Zudna/1-min.jpg">
+  <img src="/img/portfolio/buildings/block_Zudna/4-min.jpg">
   <img src="/img/portfolio/buildings/block_Zudna/5-min.jpg">
   <img src="/img/portfolio/buildings/block_Zudna/6-min.jpg">
   <img src="/img/portfolio/buildings/block_Zudna/7-min.jpg">
-  <img src="/img/portfolio/buildings/block_Zudna/4-min.jpg">
+  <img src="/img/portfolio/buildings/block_Zudna/8-min.jpg">
   <img src="/img/portfolio/buildings/block_Zudna/9-min.jpg">
 </div>
 
@@ -39,7 +39,7 @@ date: 2016-11-09
 
 -устройство бетонных полов с топпингом 
 
--монтаж шнекового оборудования
+-монтаж шнекового оборудования.
 
 
 ### <b>Общая площадь:</b> 670кв. м.
