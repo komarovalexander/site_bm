@@ -80,11 +80,6 @@ a:active {
 #global-header{
   padding-top: 40px;
 }
-.post-area p {
-  margin: 0 0;
-  font-size: 15px;
-  line-height: 25px;
-}
 .post-area {
   margin-bottom: 70px;
 }
@@ -290,7 +285,7 @@ header .navbar-default .navbar-nav li a:hover {
 #sliderw .block h1 {
   padding-bottom: 0;
   margin-top: 100px;
-  margin-bottom: 50px;
+  margin-bottom: 40px;
 }
 
 #sliderw .main-text {
@@ -302,6 +297,12 @@ header .navbar-default .navbar-nav li a:hover {
 #sliderw a.boldh1{
   color: #FFFFFF;
 }
+
+#sliderw p {
+  margin: 0 0;
+  font-size: 15px;
+  line-height: 25px;
+}  
 #sliderw .bold1{
   color:  #FFFFFF;
   letter-spacing: 0.06em;
