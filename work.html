@@ -17,7 +17,7 @@ description: "Статьи и фотографии с работами бриг�
             <h1 class="workh1"><a href="{{ firstPost.url | prepend: site.baseurl }}" class="bold boldh1">{{ firstPost.title }}</a></h1>
             <p class="post-date"><!--i>{{post.author}}, </i--><i>
   {% assign m = firstPost.date | date: "%-m" %}
-  {{ post.date | date: "%-d" }}
+  {{ firstPost.date | date: "%-d" }}
   {% case m %}
     {% when '1' %}Января
     {% when '2' %}Февраля
@@ -57,7 +57,7 @@ description: "Статьи и фотографии с работами бриг�
             <div class="col-sm-4">
               <div class="bold2-wrapper">
                 <div class="stick-wrapper"><div class="stick"></div></div>
-                <p class="bold2">{{ post.title1 }}</p>
+                <p class="bold2 post-area">{{ post.title1 }}</p>
               </div>
             <h2><a href="{{ post.url | prepend: site.baseurl }}" class="bold">{{ post.title }}</a></h2>
             <p class="post-date"><!--i>{{post.author}}, </i--><i>
