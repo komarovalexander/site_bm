@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss
-    xmlns:yandex="http://news.yandex.ru"
-    xmlns:media="http://search.yahoo.com/mrss/"
-    xmlns:turbo="http://turbo.yandex.ru"
+    xmlns:yandex="https://news.yandex.ru"
+    xmlns:media="https://search.yahoo.com/mrss/"
+    xmlns:turbo="https://turbo.yandex.ru"
     version="2.0"
 >
     <channel>
         <title>Бригада монтажников</title>
-        <link>http://brigada-montazhnikov.ru/</link>
+        <link>https://brigada-montazhnikov.ru/</link>
         <description>Специализируемся на строительстве быстровозводимых зданий из металлоконструкций</description>
         <language>ru</language>
         <yandex:analytics type="Yandex" id="46045158"/>
         <item turbo="false">
         	<title>Бригада монтажников</title>
-            <link>http://brigada-montazhnikov.ru/</link>
+            <link>https://brigada-montazhnikov.ru/</link>
             <pubDate>Sun, 15 Sep 2017 00:29:01 +0300</pubDate>
             <turbo:content>
                 <![CDATA[
@@ -33,29 +33,29 @@
             Вследствие чего некогда не возникает проблем с подписанием и сдачей работы любому технадзору.
 Так же мы готовы взять на себя ведение и сдачу исполнительной документации.
            </p>
-         <a href="http://brigada-montazhnikov.ru/work/">Фотографии процесса работы</a>
+         <a href="https://brigada-montazhnikov.ru/work/">Фотографии процесса работы</a>
          <br>
-         <a href="http://brigada-montazhnikov.ru/price/">Цены на монтаж металлоконструкций</a>
-                         <img src="http://brigada-montazhnikov.ruimg/wrapper-img.jpg"/>
+         <a href="https://brigada-montazhnikov.ru/price/">Цены на монтаж металлоконструкций</a>
+                         <img src="https://brigada-montazhnikov.ruimg/wrapper-img.jpg"/>
 
                           <h2>Монтаж сэндвич-панелей</h2>
         <p>
           Мы работаем с разными типами панелей: PIR, PUR, минеральная вата, и различные аналоги. Производим установку как стеновых так и кровельных сэндвич-панелей.
           Выполняем монтаж при помощи вакуумных присосок, инвентарным захватом.
         </p>
-        <a href="http://brigada-montazhnikov.ru/price/#sandwich">Цены на монтаж сэндвич-панелей</a>
+        <a href="https://brigada-montazhnikov.ru/price/#sandwich">Цены на монтаж сэндвич-панелей</a>
 
             <h2>Устройство фундамента</h2>
           <p>Бригада монолитчиков, состоящая из&nbsp;арматурщиков и&nbsp;бетонщиков готова выполнить устройство монолитных железобетонных фундаментов согласно проектной документации и&nbsp;допусков СНиП</p>
-         <a href="http://brigada-montazhnikov.ru/work/">Фотографии процесса работы</a>
+         <a href="httpss://brigada-montazhnikov.ru/work/">Фотографии процесса работы</a>
          <br>
-          <a href="http://brigada-montazhnikov.ru/price/#fundament">Цены на устройство фундамента</a>
+          <a href="httpss://brigada-montazhnikov.ru/price/#fundament">Цены на устройство фундамента</a>
 
           <h2>Устройство промышленных&nbsp;полов</h2>
         <p>У&nbsp;нас есть все необходимое оборудование для устройства полимерных полов и&nbsp;полов с&nbsp;топпингом (упрочняющий слой). Мы&nbsp;работаем с&nbsp;объемами от&nbsp;300м2</p>
-         <a href="http://brigada-montazhnikov.ru/work/">Фотографии процесса работы</a>
+         <a href="httpss://brigada-montazhnikov.ru/work/">Фотографии процесса работы</a>
          <br>
-        <a href="http://brigada-montazhnikov.ru/price/#poly">Цены на устройство промышленных полов</a>
+        <a href="https://brigada-montazhnikov.ru/price/#poly">Цены на устройство промышленных полов</a>
 
  <h2>Работа на&nbsp;результат</h2>
           <p>
@@ -64,26 +64,26 @@
             Все наши сотрудники аттестованы и&nbsp;сертифицированы и&nbsp;являются гражданами Российской Федерации, работая с&nbsp;нами&nbsp;&mdash; вы&nbsp;работаете без посредников.
             <br>
             <br>
-            <a href="http://brigada-montazhnikov.ru/work/">Фотографии процесса работы</a>
+            <a href="https://brigada-montazhnikov.ru/work/">Фотографии процесса работы</a>
             <br>
             Наш телефон: <a class="phone" href="tel:+79032906262">+7(903)290-62-62</a>
                       ]]>
             </turbo:content>
             <yandex:related>
                 <link
-                 url="http://brigada-montazhnikov.ru/">Главная
+                 url="https://brigada-montazhnikov.ru/">Главная
                 </link>
                 <link
-                 url="http://brigada-montazhnikov.ru/about/">О нас
+                 url="https://brigada-montazhnikov.ru/about/">О нас
                 </link>
                 <link
-                 url="http://brigada-montazhnikov.ru/work/">Наша работа
+                 url="https://brigada-montazhnikov.ru/work/">Наша работа
                 </link>
                 <link
-                 url="http://brigada-montazhnikov.ru/price/">Цена
+                 url="https://brigada-montazhnikov.ru/price/">Цена
                 </link>
                 <link
-                 url="http://brigada-montazhnikov.ru/contact/">Контакты
+                 url="https://brigada-montazhnikov.ru/contact/">Контакты
                 </link>
             </yandex:related>
         </item>
