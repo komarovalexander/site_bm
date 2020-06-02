@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Производственно - складской корпус   
-title1: В Московской области Истринского районе д. Ленино
+title1: Московская область Истринский район д. Ленино
 author: Константин Комаров
 permalink: /work/:title
 image: /img/portfolio/buildings/kran_Lenino/8.8-min.jpg
