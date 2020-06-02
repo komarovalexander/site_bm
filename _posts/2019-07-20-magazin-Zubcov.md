@@ -4,7 +4,7 @@ title: Продуктовый магазин &quotПятерочка&quot
 title1: Тверская обл., город Зубцов
 author: Константин Комаров
 permalink: /work/:title
-image: /img/portfolio/buildings/magazin_Zubcov/1-min.jpg
+image: /img/portfolio/buildings/magazin_Zubcov/1.1-min.jpg
 breadcrumb: "Продуктовый магазин Пятерочка , Тверская обл., город Зубцов"
 description: "За 5 недель непрерывной работы мы построили продуктовый магазин для крупной ритейлинговой сети по адресу Тверская обл., город Зубцов. "
 date: 2019-07-20

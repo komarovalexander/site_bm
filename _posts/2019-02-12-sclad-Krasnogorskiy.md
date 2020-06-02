@@ -13,10 +13,10 @@ date: 2019-02-12
      data-nav="thumbs"
      data-allowfullscreen="native"
      data-loop="true">
-  <img src="/img/portfolio/buildings/sclad_Krasnogorsciy/4-min.jpg">
+  <img src="/img/portfolio/buildings/sclad_Krasnogorsciy/1-min.jpg">
   <img src="/img/portfolio/buildings/sclad_Krasnogorsciy/2-min.jpg">
   <img src="/img/portfolio/buildings/sclad_Krasnogorsciy/3-min.jpg">
-  <img src="/img/portfolio/buildings/sclad_Krasnogorsciy/1-min.jpg">
+  <img src="/img/portfolio/buildings/sclad_Krasnogorsciy/4-min.jpg">
   <img src="/img/portfolio/buildings/sclad_Krasnogorsciy/5-min.jpg">
   <img src="/img/portfolio/buildings/sclad_Krasnogorsciy/6-min.jpg">
   <img src="/img/portfolio/buildings/sclad_Krasnogorsciy/7-min.jpg">
