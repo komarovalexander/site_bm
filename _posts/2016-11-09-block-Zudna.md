@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Дольно-молочный блок 
+title: Доильно-молочный блок 
 title1: Калужская область село Зудна
 author: Константин Комаров
 permalink: /work/:title
