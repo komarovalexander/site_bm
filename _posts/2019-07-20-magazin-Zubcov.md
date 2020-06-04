@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Здание магазина &quotпродукты&quot 
+title: Здание магазина «продукты» 
 title1: Тверская обл., город Зубцов
 author: Константин Комаров
 permalink: /work/:title
