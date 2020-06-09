@@ -583,7 +583,7 @@ footer .container{
 footer p {
   font-size: 13px;
   line-height: 25px;
-  color: #919191;
+  color: #1A1A1A;
 }
 footer a {
   color: #595959;
@@ -765,7 +765,7 @@ header {
     padding: 5px 0;
   }
   footer a {
-    color: #999;
+    color:  #595959;
   }
 
 }
