@@ -319,6 +319,12 @@ header .navbar-default .navbar-nav li a:hover {
   letter-spacing: 0.06em;
   text-transform: uppercase;
 }
+.experience .bold2{
+  text-decoration-line: underline;
+}
+.experience .bold2:hover{
+  text-decoration-line: none;
+}
 .work-page .row {
   margin-top: 100px;
 }
@@ -391,7 +397,6 @@ header .navbar-default .navbar-nav li a:hover {
   width: 100%;
   margin-top: 41px;
 }
-
 #services .col-md-3 {
   text-align: center;
   padding-top: 35px;
