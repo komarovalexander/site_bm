@@ -14,7 +14,7 @@ description: "Статьи и фотографии с работами бриг�
         <div class="col-md-12">
           <div class="block">
             <p class="bold1">{{ firstPost.title1 }}</p>
-            <h1 class="workh1"><a href="{{ firstPost.url | prepend: site.baseurl }}" class="bold boldh1">{{ firstPost.title }}</a></h1>
+            <h1>{{ firstPost.title }}</h1>
             <p class="post-date"><!--i>{{post.author}}, </i--><i>
   {% assign m = firstPost.date | date: "%-m" %}
   {{ firstPost.date | date: "%-d" }}

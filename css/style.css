@@ -751,6 +751,10 @@ header {
     font-size: 22px;
     margin-top: 60px;
   }
+  #sliderw .block h1 {
+    font-size: 22px;
+    line-height: 35px;
+  }
   #slider .block p {
     font-size: 18px;
   }
@@ -800,4 +804,43 @@ header {
 }
 .fotorama__thumb-border{
   border-color: #1A1A1A !important;
+}
+#feedback .contact-form-text input{
+  width: 565px;
+  height: 60px;
+  left: 140px;
+  top: 3670px;
+  border: none;
+  
+  background: #F6F6F6;
+  padding: 15px
+}
+#feedback .contact-form-tel input{
+  width: 565px;
+height: 60px;
+left: 140px;
+top: 3670px;
+border: none;
+
+background: #F6F6F6;
+padding: 15px
+}
+#feedback .contact-form-email input{
+  width: 565px;
+height: 60px;
+left: 140px;
+top: 3670px;
+border: none;
+
+background: #F6F6F6;
+padding: 15px
+}
+#feedback .contact-form-wish input{
+  width: 565px;
+height: 220px;
+left: 735px;
+top: 3670px;
+border: none;
+
+background: #F6F6F6;
 }
