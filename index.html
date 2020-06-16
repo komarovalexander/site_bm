@@ -46,57 +46,7 @@ description: "Специализируемся на монтаже металл�
     </div>
   </div>
 </section>
-<!--section class="feedback">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12 col-sm-12">
-        <div class="block">
-          <div class="section-title">
-            <h2 id="feedback-form">Форма обратной связи</h2>
-          </div>
-          <p>            
-            <div>
-              <form id="feedback" class="col-12 col-xl-10 contact-form mx-auto mail_ajax">
-                <label for="">Оставьте Ваши контакты и мы свяжемся с Вами!</label>
-                <div class="contact-form-text">
-                    <input type="text" name="Имя" placeholder="Введите Ваше имя">
-                </div>
-                <div class="contact-form-tel">
-                    <input type="tel" name="Телефон" id="" placeholder="Введите Ваш телефон" required="">
-                </div>                        
-                <input class="button" type="submit" value="ОСТАВИТЬ ЗАЯВКУ">
-              </form>
-              <script>
-                $("#feedback").submit(function(e) {
 
-                  e.preventDefault(); // avoid to execute the actual submit of the form.
-
-                  var form = $(this);
-                  //var url = "http://xn--e1anfdf7af.xn--p1ai/mail.php";
-
-                  $.ajax({
-                        type: "POST",
-                        url: url,
-                        data: form.serialize(), // serializes the form's elements.
-                        success: function(data)
-                        {
-                            alert(data); // show response from the php script.
-                        }, // serializes the form's elements.
-                        error: function(error)
-                        {
-                            alert(error); // show response from the php script.
-                        }
-                      });
-
-
-                  });
-              </script>
-            </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section-->
 <section id="services">
   <div class="container">
     <div class="row">
@@ -163,6 +113,19 @@ description: "Специализируемся на монтаже металл�
       </div>
           <div class="col-sm-4">
             <div class="block">
+              <img src="/img/portfolio/buildings/borisovo_Serpuxovo/8.jpg">
+              <div class="section-title">
+                <h3>Производственно - складское здание с встроенным АБК</h3>
+              </div>
+              <p>
+                Нами были выполнены специализированные работы в производственно-складском здании....
+                <div>
+                  <a class="btn btn-info-border" href="/work/slesarny-ceh">Читать далее</a>
+                </div>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="block">
               <img src="/img/portfolio/buildings/kran_Lenino/8.8-min.jpg">
               <div class="section-title">
                 <h3>Производственно - складской корпус</h3>
@@ -187,21 +150,71 @@ description: "Специализируемся на монтаже металл�
                 </div>
             </div>
           </div>
-          <div class="col-sm-4">
-            <div class="block">
-              <img src="/img/portfolio/buildings/rentgennprom/5.jpg">
-              <div class="section-title">
-                <h3>Здание магазина «продукты»</h3>
-              </div>
-              <p>
-                За 5 недель непрерывной работы мы построили здание магазина "продукты" по адресу Тверская обл., город Зубцов. Здание магазина было разделено на две части...
-                <div>
-                  <a class="btn btn-info-border" href="/work/slesarny-ceh">Читать далее</a>
-                </div>
-            </div>
-          </div> 
         </div> 
       </div>
     </div>
   </div>
 </section>
+
+<section class="feedback">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+          <div class="col-md-12">
+            <p class="bold2">свяжитесь с нами</p>
+            <h2 id="feedback-form">Для нового проекта</h2>
+          </div>          
+              <form id="feedback" class="col-12 col-xl-10 contact-form mx-auto mail_ajax">
+                <div class="col-sm-4">
+                  <div class="contact-form-text">
+                      <input type="text" name="Имя" placeholder="Введите Ваше имя">
+                  </div>
+                </div>
+                <div class="col-sm-4">
+                  <div class="contact-form-tel">
+                      <input type="tel" name="Телефон" id="" placeholder="Введите Ваш телефон" required="">
+                  </div>
+                </div> 
+                  <div class="contact-form-email">
+                    <input type="hidden" name="Почта" value="(Данные с сайта бригада монтажников)" id="" placeholder="example@mail.com" required="">
+                  </div> 
+                <div class="col-sm-4">                                 
+                  <input class="btn btn-default" type="submit" value="Связаться с нами">
+                </div>  
+                
+                  <div class="col-md-12">
+                  <p>Отправляя заявку, вы соглашаетесь <a>на обработку персональных данных</a></p> 
+                </div> 
+              </div> 
+              </form>
+              <script>
+                $("#feedback").submit(function(e) {
+
+                  e.preventDefault(); 
+
+                  var form = $(this);
+                  var url = "http://xn--e1anfdf7af.xn--p1ai/mail.php";
+                   var data = form.serialize();
+                   console.log(data);
+                  $.ajax({
+                        type: "POST",
+                        url: url,
+                        data: form.serialize(), // serializes the form's elements.
+                        success: function(data)
+                        {
+                            alert(data); // show response from the php script.
+                        }, // serializes the form's elements.
+                        error: function(error)
+                        {
+                            alert(error); // show response from the php script.
+                        }
+                      });
+
+                  });
+              </script>
+            
+      </div>
+    </div>
+  </div>
+</section>
+
