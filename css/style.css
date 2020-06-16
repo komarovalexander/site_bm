@@ -685,6 +685,7 @@ footer .col-md-12 {
  top: 3670px;
  border: none;
  margin: 0px 0px 20px 0px;
+ padding: 15px;
  
  background: #F6F6F6;
  
@@ -696,13 +697,22 @@ left: 140px;
 top: 3670px;
 border: none;
 margin: 0px 0px 20px 0px;
+padding: 15px;
 
 background: #F6F6F6;
 
 }
 #feedback .btn-default {
  width: 100%;
-}  
+} 
+.overlay {
+  position: fixed;
+  background-color: rgba(000, 000, 000, 0.7);
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+} 
 
 @media only screen and (max-width: 768px) {
   /*---------------------------------------------
